@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Zoo Animals</title>
+    <script src="/vendor/jquery.min.js"></script>
+    <script src="/scripts/client-app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
+    <link rel="stylesheet" href="/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/styles.css"  />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>ZOO Animals</h1>
+      </header>
+      <h2>Animal Inventory</h2>
+      <form id="animal-form">
+        <div class="form-group">
+          <label for="animal-type">Animal:</label>
+          <input type="text" id="animal" name="animal" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label for="number">Number:</label>
+          <input type="number" id="number" name="number" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label for="id">id:</label>
+          <input type="number" id="number" name="number" class="form-control" readonly="<span id='id'></span>"/>
+        </div>
+
+        <button id="animal-submit" class="btn btn-default">Add Animal</button>
+      </form>
+
+      <h2>Zoo Animals</h2>
+
+      <ul id="animal-list">
+
+      </ul>
+    </main>
+
+  </body>
+</html>

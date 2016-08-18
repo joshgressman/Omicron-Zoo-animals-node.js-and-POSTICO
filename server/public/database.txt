@@ -1,0 +1,14 @@
+//commands for database
+
+1.CREATE TABLE animals (
+ID serial primary key,
+animal_type varchar(80) NOT NULL,
+number integer
+);
+
+2. Test database
+INSERT INTO animals ( animal_type, number)
+VALUES ('Lion', 2);
+
+INSERT INTO animals ( animal_type, number)
+VALUES ('wolf', 4);
